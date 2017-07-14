@@ -201,7 +201,7 @@ public class State_K : MonoBehaviour {
         if (_pose_upper == true)
         {
             Vector3 pos = _rShoulder.transform.position;
-            _Chance.transform.position = new Vector3(pos.x, pos.y + 10.0f, pos.z );
+            _Chance.transform.position = new Vector3(pos.x, pos.y - 10.0f, pos.z );
         }
         // 左太ももの座標を取得する
         if (_pose_lower == true)
