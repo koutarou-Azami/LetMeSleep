@@ -77,89 +77,29 @@ public class PoseManager : MonoBehaviour
             case PoseState.Pose_of_Turbulent_hawk:
                 Pose_of_Turbulent_hawk();
                 break;
-            case PoseState.Muay_thai:
-                Muay_thai();
-                break;
             case PoseState.Open_leg:
                 Open_leg();
                 break;
             case PoseState.Shico:
                 Shiko();
                 break;
-            case PoseState.Eiffel_Tower:
-                Eiffel_Tower();
-                break;
             case PoseState.Banana:
                 Banana();
-                break;
-            case PoseState.AlphaF:
-                AlphaF();
                 break;
             case PoseState.AlphaH:
                 AlphaH();
                 break;
-            case PoseState.AlphaJ:
-                AlphaJ();
-                break;
             case PoseState.AlphaK:
                 AlphaK();
-                break;
-            case PoseState.AlphaN:
-                AlphaN();
-                break;
-            case PoseState.AlphaR:
-                AlphaR();
-                break;
-            case PoseState.AlphaU:
-                AlphaU();
                 break;
             case PoseState.AlphaX:
                 AlphaX();
                 break;
-            case PoseState.Yoga_1:
-                Yoga1();
-                break;
-            case PoseState.Yoga_2:
-                Yoga2();
-                break;
-            case PoseState.Yoga_3:
-                Yoga3();
-                break;
-            case PoseState.Bodybuilding:
-                Bodybuilding();
-                break;
-            case PoseState.Frog:
-                Frog();
-                break;
-            case PoseState.Gymnastics:
-                Gymnastics();
-                break;
             case PoseState.Exit:
                 Exit();
                 break;
-            case PoseState.Painfull1:
-                Painfull1();
-                break;
-            case PoseState.Painfull2:
-                Painfull2();
-                break;
-            case PoseState.Spuat:
-                Spuat();
-                break;
-            case PoseState.Fight:
-                Fight();
-                break;
-            case PoseState.Zenkutu:
-                Zenkutu();
-                break;
             case PoseState.Big:
                 Big();
-                break;
-            case PoseState.Race_walking:
-                Race_walking();
-                break;
-            case PoseState.Happy:
-                Happy();
                 break;
             case PoseState.Deformed:
                 Deformed();
